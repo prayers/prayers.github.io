@@ -10,4 +10,4 @@ main page for prayers
 
 ## [Learning](learning/index.md)
 
-## [Personal Quiet Time](personalquiettime/index.md)
+## [Personal Quiet Time](PersonalQuietTime/index.md)
