@@ -12,7 +12,7 @@ Bible Outline Series
 
 [圣经人名词典](圣经中的人名.md)
 
-[圣经中的祷告](prayers%20in%20the%20Bible.md)
+[圣经中的祷告](圣经中的祷告.md)
 
 [圣经中的山](圣经中的山.md)
 
