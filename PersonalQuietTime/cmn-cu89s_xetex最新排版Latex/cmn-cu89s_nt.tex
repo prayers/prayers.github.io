@@ -1,0 +1,44 @@
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\XeTeXlinebreakpenalty = 10
+\def\ScriptureFontFace{Bitstream Cyberbit}%
+\def\OtherFontFace{Bitstream Cyberbit}%
+\input{nt}%
+\input{haiola}%
+\begin{document}%
+\makeatletter\def\@evenhead{{\HeaderFont{\rightmark\hfil\thepage\hfil\leftmark}}}\def\@oddhead{{\HeaderFont{\rightmark\hfil\thepage\hfil\leftmark}}}\makeatother\frontmatter\pagenumbering{roman}%
+\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
+\resizebox{!}{\textwidth}{\includegraphics{cover.png}}
+\vfill\eject
+\input{CPR}
+\tableofcontents\clearpage
+\setcounter{page}{1}\pagenumbering{arabic}\mainmatter%
+\input{MAT_src}
+\input{MRK_src}
+\input{LUK_src}
+\input{JHN_src}
+\input{ACT_src}
+\input{ROM_src}
+\input{1CO_src}
+\input{2CO_src}
+\input{GAL_src}
+\input{EPH_src}
+\input{PHP_src}
+\input{COL_src}
+\input{1TH_src}
+\input{2TH_src}
+\input{1TI_src}
+\input{2TI_src}
+\input{TIT_src}
+\input{PHM_src}
+\input{HEB_src}
+\input{JAS_src}
+\input{1PE_src}
+\input{2PE_src}
+\input{1JN_src}
+\input{2JN_src}
+\input{3JN_src}
+\input{JUD_src}
+\input{REV_src}
+\clearpage
+\end{document}

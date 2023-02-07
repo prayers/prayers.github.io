@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">创世记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">出埃及记</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">利未记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">民数记</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">申命记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">约书亚记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">士师记</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">路得记</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">撒母耳记上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">撒母耳记下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">列王纪上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">列王纪下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">历代志上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">历代志下</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">以斯拉记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">尼希米记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">以斯帖记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">约伯记</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">诗篇</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">箴言</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">传道书</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">雅歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">以赛亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">耶利米书</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">耶利米哀歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">以西结书</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">但以理书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">何西阿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">约珥书</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">阿摩司书</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">俄巴底亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">约拿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">弥迦书</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">那鸿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">哈巴谷书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">西番雅书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">哈该书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">撒迦利亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">玛拉基书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">马太福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">马可福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">路加福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">约翰福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">使徒行传</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">罗马书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">哥林多前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">哥林多后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">加拉太书</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">以弗所书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">腓立比书</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">歌罗西书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">帖撒罗尼迦前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">帖撒罗尼迦后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">提摩太前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">提摩太后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">提多书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">腓利门书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">希伯来书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">雅各书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">彼得前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">彼得后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">约翰一书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">约翰二书</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">约翰三书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">犹大书</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">启示录</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">创世记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">出埃及记</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">利未记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">民数记</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">申命记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">约书亚记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">士师记</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">路得记</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">撒母耳记上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">撒母耳记下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">列王纪上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">列王纪下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">历代志上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">历代志下</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">以斯拉记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">尼希米记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">以斯帖记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">约伯记</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">诗篇</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">箴言</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">传道书</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">雅歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">以赛亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">耶利米书</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">耶利米哀歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">以西结书</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">但以理书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">何西阿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">约珥书</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">阿摩司书</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">俄巴底亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">约拿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">弥迦书</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">那鸿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">哈巴谷书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">西番雅书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">哈该书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">撒迦利亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">玛拉基书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">马太福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">马可福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">路加福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">约翰福音</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">使徒行传</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">罗马书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">哥林多前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">哥林多后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">加拉太书</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">以弗所书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">腓立比书</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">歌罗西书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">帖撒罗尼迦前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">帖撒罗尼迦后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">提摩太前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">提摩太后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">提多书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">腓利门书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">希伯来书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">雅各书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">彼得前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">彼得后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">约翰一书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">约翰二书</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">约翰三书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">犹大书</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">启示录</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">创世记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">出埃及记</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">利未记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">民数记</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">申命记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">约书亚记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">士师记</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">路得记</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">撒母耳记上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">撒母耳记下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">列王纪上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">列王纪下</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">历代志上</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">历代志下</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">以斯拉记</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">尼希米记</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">以斯帖记</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">约伯记</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">诗篇</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">箴言</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">传道书</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">雅歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">以赛亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">耶利米书</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">耶利米哀歌</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">以西结书</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">但以理书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">何西阿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">约珥书</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">阿摩司书</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">俄巴底亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">约拿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">弥迦书</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">那鸿书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">哈巴谷书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">西番雅书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">哈该书</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">撒迦利亚书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">玛拉基书</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">太</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">可</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">路</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">约</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">使徒行传</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">罗马书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">哥林多前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">哥林多后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">加拉太书</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">以弗所书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">腓立比书</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">歌罗西书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">帖撒罗尼迦前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">帖撒罗尼迦后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">提摩太前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">提摩太后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">提多书</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">腓利门书</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">希伯来书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">雅各书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">彼得前书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">彼得后书</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">约翰一书</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">约翰二书</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">约翰三书</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">犹大书</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">启示录</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator />
+    <dc:contributor />
+    <dc:title>新标点和合本</dc:title>
+    <dc:description>Chinese Union Version with New Punctuation (simplified)</dc:description>
+    <dc:date>2021-10-15</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>cmn</dc:language>
+    <dc:publisher>Digital Bible Society</dc:publisher>
+    <dc:rights>Public Domain</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>:</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>;</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ § ** †† ‡‡ §§ *** ††† ‡‡‡ §§§</footnoteMarkers>
+  <BookSourceForMarkerXt>ShortName</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>cmn</iso>
+  <isoVariant>Mandarin, simplified script</isoVariant>
+  <langName>中国语文</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>新标点和合本</coverTitle>
+</vernacularParms>
