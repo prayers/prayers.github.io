@@ -1,4 +1,4 @@
-# Personal Quiet Time
+## Personal Quiet Time
 
 Bible Mountains & Hills
 
