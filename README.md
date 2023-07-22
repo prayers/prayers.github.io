@@ -11,3 +11,5 @@ main page for prayers
 ## [Learning](learning/index.md)
 
 ## [Personal Quiet Time](PersonalQuietTime/index.md)
+
+## [文学识记、名篇背诵](literature/readme.md)
