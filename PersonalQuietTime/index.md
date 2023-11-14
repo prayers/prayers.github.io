@@ -67,3 +67,5 @@ Bible Outline Series
 [圣经人名来源Origins](圣经人名来源Origins.md)
 
 [圣经事件年表](圣经事件年表.md)
+
+[**圣经知识问答**](圣经知识题库.md)
