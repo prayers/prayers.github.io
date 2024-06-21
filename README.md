@@ -15,6 +15,7 @@ main page for prayers
 ### a. [查经资料](PersonalQuietTime/biblestudy/biblestudy.md)
 ### b. [圣经知识分享](PersonalQuietTime/biblesharings/biblesharings.md)
 ### c. [属灵书籍和资料](PersonalQuietTime/christianbooks/christianbooks.md)
+### d. [读经计划](PersonalQuietTime/readingplans/readme.md)
 
 ## [文学识记、名篇背诵](literature/index.md)
 
