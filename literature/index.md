@@ -6,6 +6,11 @@
 
 [茅屋为秋风所破歌-杜甫](茅屋为秋风所破歌.md)
 
+## 2024年暑假必备古诗词文赋
+
+  1. [滕王阁序](https://www.gushici.net/shici/38/41383.html)
+  2. [兰亭序](https://www.gushici.net/shici/08/60826.html)
+
 ## 2023年暑假必背古诗词
 
 1. [观沧海](https://www.gushici.net/shici/41/41475.html)
