@@ -26,12 +26,28 @@
             "id": "58d957c67dac8e74",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "圣经/圣经（多版本）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8323a65ce94cf1fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "神学院课程/classes/专文写作课.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "神学院课程/classes/专文写作课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "神学院课程/classes/专文写作课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "神学院课程/classes/专文写作课.md"
+              }
             }
           }
         ]
@@ -146,42 +166,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "58d957c67dac8e74",
+  "active": "8323a65ce94cf1fb",
   "lastOpenFiles": [
+    "神学院课程/classes/中国文化与宣教课.md",
     "神学院课程/classes/灵修课.md",
+    "神学院课程/classes/旧约导论.md",
+    "神学院课程/classes/专文写作课.md",
+    "神学院课程/resources/《21世纪旧约导论》.md",
+    "神学院课程/resources/《圣经以色列史》.md",
+    "圣经/Bible Study Kit (v1)/BibleGateway-to-Obsidian Script.md",
+    "圣经/Bible Study Kit (v1)/Bible Study Kit (Overview).md",
+    "神学院课程/神学院课程.md",
+    "圣经/圣经（多版本）.md",
+    "圣经/圣经(DB输出)/圣经（DB输出）.md",
+    "圣经/Bible Study Kit (v1)/The Bible (WEB).md",
+    "圣经/Bible Study Kit (v1)/010 Faith MOC.md",
+    "圣经/Bible Study Kit (v1)/000 Home.md",
+    "圣经/Bible Study Kit (v1)/+Start here.md",
+    "圣经/圣经(吕振中译本)/吕振中译本圣经.md",
+    "圣经/圣经(吕振中译本)/lzz/090/031.md",
+    "圣经/圣经(吕振中译本)/README.md",
+    "圣经/圣经(和合本修订版)/旧约/02 出埃及记.md",
+    "圣经/圣经(和合本修订版)/和合本修订版.md",
+    "圣经/圣经(和合本修订版)/旧约/01 创世记.md",
+    "圣经/圣经(和合本)/中英双语NIV版圣经.md",
+    "圣经/圣经(和合本)/创世记.md",
+    "圣经/圣经(和合本)/README.md",
     "圣经/圣经(DB输出)/29_约珥书.md",
     "圣经/圣经(DB输出)/28_何西阿书.md",
-    "圣经/圣经(DB输出)/27_但以理书.md",
-    "圣经/圣经(DB输出)/26_以西结书.md",
-    "圣经/圣经(DB输出)/25_耶利米哀歌.md",
-    "圣经/圣经(DB输出)/24_耶利米书.md",
-    "圣经/圣经(DB输出)/23_以赛亚书.md",
-    "圣经/圣经(DB输出)/22_雅歌.md",
-    "圣经/圣经(DB输出)/21_传道书.md",
-    "圣经/圣经(DB输出)/20_箴言.md",
-    "圣经/圣经(DB输出)/19_诗篇.md",
-    "圣经/圣经(DB输出)/18_约伯记.md",
-    "圣经/圣经(DB输出)/17_以斯帖记.md",
-    "圣经/圣经(DB输出)/16_尼希米记.md",
-    "圣经/圣经(DB输出)/15_以斯拉记.md",
-    "圣经/圣经(DB输出)/14_历代志下.md",
-    "圣经/圣经(DB输出)/13_历代志上.md",
-    "圣经/圣经(DB输出)/12_列王纪下.md",
-    "圣经/圣经(DB输出)/11_列王纪上.md",
-    "圣经/圣经(DB输出)/10_撒母耳记下.md",
-    "圣经/圣经(DB输出)/09_撒母耳记上.md",
-    "圣经/圣经(DB输出)/08_路得记.md",
-    "圣经/圣经(DB输出)/07_士师记.md",
-    "圣经/圣经(DB输出)/06_约书亚记.md",
-    "圣经/圣经(DB输出)/05_申命记.md",
     "圣经/圣经(DB输出)",
     "圣经/新建文件夹",
     "readingBibleMDB(python)/bible_markdown",

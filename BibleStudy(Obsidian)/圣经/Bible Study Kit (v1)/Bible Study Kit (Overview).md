@@ -4,7 +4,7 @@ aliases: [Overview]
 # Overview
 ## Get cracking
 * [[+Start here|Start here]]
-* [[+Overview|Overview]]
+* [[Bible Study Kit (Overview)|Overview]]
 * [[About me]]
 * [[What is the Gospel|What is the Gospel?]]
 

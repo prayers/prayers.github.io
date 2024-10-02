@@ -1,4 +1,4 @@
-links: [[+Overview|Overview]]
+links: [[Bible Study Kit (Overview)|Overview]]
 # Release Notes
 ## Releases
 * v1 (2021-02-06): First release

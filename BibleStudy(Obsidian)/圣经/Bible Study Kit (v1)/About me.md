@@ -1,4 +1,4 @@
-links: [[+Overview|Overview]]
+links: [[Bible Study Kit (Overview)|Overview]]
 # About me
 Hi! 👋 My name is Joschua. I am from Germany but am currently living in the Swedish forest 🇸🇪.
 
