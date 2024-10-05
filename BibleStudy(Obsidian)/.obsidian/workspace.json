@@ -28,14 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "神学院课程/神学院课程.md",
+                "file": "BSF和信义会查经/BSF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "神学院课程/神学院课程.md",
+                "file": "信仰生活分类与汇总.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "神学院课程/神学院课程.md",
+                "file": "信仰生活分类与汇总.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "神学院课程/神学院课程.md"
+                "file": "信仰生活分类与汇总.canvas"
               }
             }
           }
@@ -162,22 +161,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2e244c470236cafe",
+  "active": "1cd4dd08dbf4635b",
   "lastOpenFiles": [
-    "BSF和信义会查经/BSF和信义会查经.md",
     "BSF和信义会查经/BSF.md",
-    "BSF和信义会查经/信义会查经.md",
+    "BSF和信义会查经/BSF和信义会查经.md",
     "信仰生活分类与汇总.canvas",
-    "BSF和信义会查经",
+    "神学院课程/resources/《圣经以色列史》.md",
+    "神学院课程/classes/旧约导论.md",
     "神学院课程/神学院课程.md",
+    "BSF和信义会查经/信义会查经.md",
+    "BSF和信义会查经",
     "圣经/圣经（多版本）.md",
     "圣经/圣经(吕振中译本)/吕振中译本圣经.md",
     "神学院课程/classes/专文写作课.md",
     "神学院课程/classes/中国文化与宣教课.md",
     "神学院课程/classes/灵修课.md",
-    "神学院课程/classes/旧约导论.md",
     "神学院课程/resources/《21世纪旧约导论》.md",
-    "神学院课程/resources/《圣经以色列史》.md",
     "圣经/Bible Study Kit (v1)/BibleGateway-to-Obsidian Script.md",
     "圣经/Bible Study Kit (v1)/Bible Study Kit (Overview).md",
     "圣经/圣经(DB输出)/圣经（DB输出）.md",
@@ -191,7 +190,6 @@
     "圣经/圣经(和合本修订版)/和合本修订版.md",
     "圣经/圣经(和合本修订版)/旧约/01 创世记.md",
     "圣经/圣经(和合本)/中英双语NIV版圣经.md",
-    "圣经/圣经(和合本)/创世记.md",
     "圣经/圣经(DB输出)",
     "圣经/新建文件夹",
     "readingBibleMDB(python)/bible_markdown",

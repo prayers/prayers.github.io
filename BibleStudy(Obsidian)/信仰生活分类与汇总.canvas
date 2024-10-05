@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"34d3e23f6740dc23","type":"text","text":"总览","x":-540,"y":-360,"width":250,"height":60},
 		{"id":"a8758d8d32d4f87b","type":"text","text":"[[神学院课程]]","x":-540,"y":-128,"width":250,"height":60},
-		{"id":"d13f65282d6cc400","x":-220,"y":-128,"width":250,"height":60,"type":"text","text":"BSF和信义会查经"},
+		{"id":"d13f65282d6cc400","type":"text","text":"[[BSF和信义会查经]]","x":-220,"y":-128,"width":250,"height":60},
 		{"id":"1c41723ccb470c9a","type":"text","text":"[[圣经（多版本）]]","x":-860,"y":-128,"width":250,"height":60}
 	],
 	"edges":[
