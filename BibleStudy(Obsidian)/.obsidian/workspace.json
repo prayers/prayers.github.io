@@ -11,14 +11,11 @@
             "id": "1cd4dd08dbf4635b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "信仰生活分类与汇总.canvas",
-                "viewState": {
-                  "x": -411.5,
-                  "y": -121.00000201572067,
-                  "zoom": 0
-                }
+                "file": "神学院课程/resources/《21世纪旧约导论》.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -84,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5085258483887
+    "width": 201.50790786743164
   },
   "right": {
     "id": "c302f5855fa4c3a6",
@@ -100,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "信仰生活分类与汇总.canvas",
+                "file": "神学院课程/resources/《21世纪旧约导论》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "信仰生活分类与汇总.canvas",
+                "file": "神学院课程/resources/《21世纪旧约导论》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信仰生活分类与汇总.canvas"
+                "file": "神学院课程/resources/《21世纪旧约导论》.md"
               }
             }
           }
@@ -163,12 +160,12 @@
   },
   "active": "1cd4dd08dbf4635b",
   "lastOpenFiles": [
-    "BSF和信义会查经/BSF.md",
-    "BSF和信义会查经/BSF和信义会查经.md",
-    "信仰生活分类与汇总.canvas",
-    "神学院课程/resources/《圣经以色列史》.md",
     "神学院课程/classes/旧约导论.md",
     "神学院课程/神学院课程.md",
+    "信仰生活分类与汇总.canvas",
+    "BSF和信义会查经/BSF.md",
+    "BSF和信义会查经/BSF和信义会查经.md",
+    "神学院课程/resources/《圣经以色列史》.md",
     "BSF和信义会查经/信义会查经.md",
     "BSF和信义会查经",
     "圣经/圣经（多版本）.md",
