@@ -1,6 +1,5 @@
-# prayers.github.io
+# 赞美敬拜
 
-main page for prayers
 
 ## 【约翰福音3:16-18】
 
