@@ -20,4 +20,6 @@ main page for prayers
 
 ### d. [读经计划](PersonalQuietTime/readingplans/readme.md)
 
+## [我们一起祷告](commonprayer/readme.md)
+
 ## [文学识记、名篇背诵](literature/index.md)
