@@ -21,6 +21,6 @@
 
 ## [我们一起祷告](commonprayer/readme.md)
 
-## [希伯来语]（biblicalhebrew/readme.md）
+## [希伯来语](biblicalhebrew/readme.md)
 
 ## [文学识记、名篇背诵](literature/index.md)
