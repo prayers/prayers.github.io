@@ -24,3 +24,5 @@
 ## [希伯来语](biblicalhebrew/readme.md)
 
 ## [文学识记、名篇背诵](literature/index.md)
+
+## [安装BibleWorks 9.0教程](bibleworks9.0/readme.md)
