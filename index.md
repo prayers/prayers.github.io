@@ -19,3 +19,5 @@
 # [安装BibleWorks 9.0教程](bibleworks9.0/readme.md)
 
 # [专文写作格式说明](./writing/index.md)
+
+# [网络神学院信息](./onlineseminary/readme.md)
