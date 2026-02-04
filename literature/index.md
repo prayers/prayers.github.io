@@ -75,3 +75,47 @@
 ## 红楼梦诗词
 
 [红楼诗词歌赋汇总](hongloumeng.md)
+结合中小学必背篇目、经典传世名篇的范畴，为你补充不同题材、朝代的经典古诗词/文赋，可按分类加入对应板块：
+
+## 其他
+### 一、新增经典古诗词（适配2023/2024暑假必背古诗词板块）
+1. [春江花月夜-张若虚](https://www.gushici.net/shici/17/8731.html)
+2. [登高-杜甫](https://www.gushici.net/shici/15/9263.html)
+3. [琵琶行(并序)-白居易](https://www.gushici.net/shici/08/9010.html)
+4. [念奴娇·赤壁怀古-苏轼](https://www.gushici.net/shici/18/42871.html)
+5. [永遇乐·京口北固亭怀古-辛弃疾](https://www.gushici.net/shici/24/50707.html)
+6. [送杜少府之任蜀州-王勃](https://www.gushici.net/shici/37/120.html)
+7. [凉州词·黄河远上白云间-王之涣](https://www.gushici.net/shici/45/8011.html)
+8. [使君莫射南来雁-杜牧](https://www.gushici.net/shici/02/23890.html)（补充晚唐经典）
+9. [锦瑟-李商隐](https://www.gushici.net/shici/02/23971.html)
+10. [归园田居·其三-陶渊明](https://www.gushici.net/shici/56/60561.html)
+11. [己亥杂诗·其五-龚自珍](https://www.gushici.net/shici/02/60710.html)（细化篇目，原仅标“己亥杂诗”）
+12. [夜雨寄北-李商隐](https://www.gushici.net/shici/02/23980.html)
+13. [泊秦淮-杜牧](https://www.gushici.net/shici/02/23887.html)
+14. [送友人-李白](https://www.gushici.net/shici/16/6953.html)
+15. [登楼-杜甫](https://www.gushici.net/shici/15/9278.html)
+
+### 二、新增文言文篇目（适配2023暑假文言文背诵板块）
+1. [桃花源记（补充：可标注“陶渊明”，原仅链接）](https://www.gushici.net/shici/06/60797.html)
+2. [醉翁亭记（补充：欧阳修，原仅链接）](https://www.gushici.net/shici/38/41393.html)
+3. [师说-韩愈](https://www.guwenxuexi.com/chuzhong/512.html)
+4. [劝学-荀子](https://www.guwenxuexi.com/gaozhong/102.html)
+5. [邹忌讽齐王纳谏-《战国策》](https://www.guwenxuexi.com/chuzhong/508.html)
+6. [出师表（后出师表，补充完整）](https://www.gushici.net/shici/07/60817.html)
+7. [桃花源记（已存在，可补充《五柳先生传-陶渊明》）](https://www.gushici.net/shici/06/60796.html)
+8. [马说-韩愈](https://www.guwenxuexi.com/chuzhong/511.html)
+9. [陋室铭（补充：刘禹锡，原仅链接）](https://www.gushici.net/shici/06/60798.html)
+10. [记承天寺夜游（补充：苏轼，原仅链接）](https://www.gushici.net/shici/07/60804.html)
+
+### 三、新增经典文赋（适配2024暑假必备古诗词文赋板块）
+1. [阿房宫赋-杜牧](https://www.gushici.net/shici/02/23930.html)
+2. [前赤壁赋-苏轼](https://www.gushici.net/shici/18/42820.html)
+3. [洛神赋-曹植](https://www.gushici.net/shici/37/41350.html)
+4. [归去来兮辞-陶渊明](https://www.gushici.net/shici/56/60560.html)
+
+### 四、补充红楼梦相关经典诗词（适配红楼诗词板块）
+1. [葬花吟](https://www.gushici.net/hongloumeng/1.html)
+2. [枉凝眉](https://www.gushici.net/hongloumeng/2.html)
+3. [好了歌](https://www.gushici.net/hongloumeng/3.html)
+4. [题帕三绝](https://www.gushici.net/hongloumeng/4.html)
+
