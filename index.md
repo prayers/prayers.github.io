@@ -21,3 +21,6 @@
 # [专文写作格式说明](./writing/index.md)
 
 # [网络神学院信息](./onlineseminary/readme.md)
+
+<div id="dailyVersesWrapper"></div>
+<script async defer src="https://dailyverses.net/get/verse.js?language=cuv"></script>
