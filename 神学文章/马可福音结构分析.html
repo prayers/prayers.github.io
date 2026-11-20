@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杀机已经出现 · 马可福音 2:1–3:6 结构解析</title>
+<style>
+  :root{
+    --ink:#2a2320;
+    --parchment:#f6f1e7;
+    --parchment-2:#efe7d5;
+    --gold:#a9822f;
+    --gold-soft:#c9a24c;
+    --purple:#3a2c52;
+    --purple-soft:#5a4778;
+    --crimson:#8f2d2a;
+    --crimson-soft:#b5483f;
+    --line:#d8ccb0;
+    --shadow:rgba(40,30,20,.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Noto Serif SC","Songti SC",serif;
+    color:var(--ink);
+    background:
+      radial-gradient(circle at 20% 10%, #fbf7ee 0%, transparent 40%),
+      radial-gradient(circle at 80% 90%, #f2ead9 0%, transparent 45%),
+      var(--parchment);
+    line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px 90px;}
+
+  /* ---------- Header ---------- */
+  header.hero{
+    position:relative;
+    text-align:center;
+    padding:64px 20px 48px;
+    background:
+      linear-gradient(180deg, rgba(58,44,82,.96), rgba(42,32,58,.98));
+    color:#f3ecd8;
+    overflow:hidden;
+  }
+  header.hero::after{
+    content:"✝";
+    position:absolute;
+    right:-30px;bottom:-50px;
+    font-size:260px;
+    color:rgba(201,162,76,.10);
+    line-height:1;
+    pointer-events:none;
+  }
+  .hero .eyebrow{
+    letter-spacing:.42em;
+    font-size:12px;
+    color:var(--gold-soft);
+    margin-bottom:14px;
+  }
+  .hero h1{
+    font-size:30px;
+    margin:0 0 10px;
+    font-weight:700;
+    letter-spacing:.04em;
+  }
+  .hero .ref{
+    display:inline-block;
+    margin-top:8px;
+    padding:4px 16px;
+    border:1px solid var(--gold-soft);
+    border-radius:20px;
+    color:var(--gold-soft);
+    font-size:14px;
+    letter-spacing:.1em;
+  }
+  .hero .hook{
+    max-width:640px;
+    margin:24px auto 0;
+    font-size:15px;
+    color:#e5ddc6;
+    font-style:italic;
+    line-height:1.9;
+  }
+
+  /* ---------- Nav ---------- */
+  nav.toc{
+    position:sticky;top:0;z-index:50;
+    background:rgba(246,241,231,.94);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+    padding:10px 0;
+  }
+  nav.toc ul{
+    max-width:960px;margin:0 auto;padding:0 20px;
+    list-style:none;display:flex;flex-wrap:wrap;gap:6px;
+    justify-content:center;
+  }
+  nav.toc a{
+    display:inline-block;
+    padding:5px 12px;
+    font-size:13px;
+    color:var(--purple);
+    text-decoration:none;
+    border-radius:14px;
+    transition:.2s;
+  }
+  nav.toc a:hover{background:var(--purple);color:#f3ecd8;}
+
+  /* ---------- Section ---------- */
+  section{margin-top:46px;}
+  h2.sec{
+    font-size:22px;
+    color:var(--purple);
+    border-left:5px solid var(--gold);
+    padding-left:12px;
+    margin:0 0 20px;
+    letter-spacing:.03em;
+  }
+  h2.sec small{display:block;font-size:12px;color:var(--gold);letter-spacing:.2em;font-weight:400;margin-bottom:4px;}
+  h3.sub{color:var(--crimson);font-size:16px;margin:26px 0 10px;}
+
+  p.lead{font-size:16px;}
+  .card{
+    background:#fffdf7;
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:20px 22px;
+    box-shadow:0 4px 16px var(--shadow);
+    margin:16px 0;
+  }
+  .muted{color:#7a6f5c;font-size:14px;}
+
+  /* ---------- Chiasm (ABCBA) ---------- */
+  .chiasm{display:flex;flex-direction:column;gap:8px;align-items:center;margin:24px 0;}
+  .chi-row{
+    width:100%;max-width:680px;
+    display:flex;align-items:center;gap:14px;
+    padding:12px 16px;border-radius:10px;
+    color:#f6f1e7;
+    box-shadow:0 3px 10px var(--shadow);
+  }
+  .chi-tag{
+    flex:0 0 42px;height:42px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:700;font-size:18px;
+    background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.4);
+  }
+  .chi-txt strong{display:block;font-size:15px;}
+  .chi-txt span{font-size:12.5px;opacity:.9;}
+  .lvl-a{background:linear-gradient(90deg,var(--crimson),var(--crimson-soft));}
+  .lvl-b{background:linear-gradient(90deg,var(--purple-soft),var(--purple));}
+  .lvl-c{background:linear-gradient(90deg,var(--gold),var(--gold-soft));max-width:720px;}
+  .chi-center-note{text-align:center;color:var(--gold);font-size:12px;letter-spacing:.2em;margin-top:2px;}
+
+  /* ---------- Double Helix ---------- */
+  .helix{
+    display:grid;grid-template-columns:1fr auto 1fr;
+    gap:0;align-items:stretch;margin:20px 0;
+  }
+  .helix .col-title{text-align:center;font-weight:700;padding:8px;border-radius:8px 8px 0 0;color:#f6f1e7;font-size:14px;}
+  .helix .rev{background:linear-gradient(180deg,var(--gold),var(--gold-soft));}
+  .helix .hos{background:linear-gradient(180deg,var(--crimson),var(--crimson-soft));}
+  .helix .mid{display:flex;flex-direction:column;align-items:center;justify-content:space-around;padding:0 6px;}
+  .helix .stage-num{width:30px;height:30px;border-radius:50%;background:var(--purple);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;margin:10px 0;}
+  .helix .cell{padding:10px 12px;font-size:13px;border:1px solid var(--line);background:#fffdf7;}
+  .helix .cell.rev-c{border-radius:0 0 0 8px;}
+  .helix .cell.hos-c{border-radius:0 0 8px 0;text-align:right;}
+  .arrow-up{color:var(--gold);font-size:11px;text-align:center;letter-spacing:.2em;}
+
+  /* ---------- War cards ---------- */
+  .war{
+    background:#fffdf7;
+    border:1px solid var(--line);
+    border-left:5px solid var(--gold);
+    border-radius:10px;
+    margin:14px 0;
+    overflow:hidden;
+    box-shadow:0 3px 12px var(--shadow);
+  }
+  .war summary{
+    cursor:pointer;
+    list-style:none;
+    padding:14px 18px;
+    display:flex;align-items:center;gap:12px;
+    font-size:15px;font-weight:600;
+    background:linear-gradient(90deg,#faf4e6,#fffdf7);
+  }
+  .war summary::-webkit-details-marker{display:none;}
+  .war summary .no{
+    flex:0 0 30px;height:30px;border-radius:50%;
+    background:var(--purple);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:13px;
+  }
+  .war summary .pos-tag{
+    margin-left:auto;font-size:11px;letter-spacing:.1em;
+    padding:2px 9px;border-radius:10px;
+    background:var(--crimson);color:#fff;
+  }
+  .war summary .pos-tag.c{background:var(--gold);}
+  .war[open] summary{border-bottom:1px solid var(--line);}
+  .war .body{padding:6px 18px 16px;}
+  .war .row{margin:10px 0;}
+  .war .row b{color:var(--purple);}
+  .war .row.hos b{color:var(--crimson);}
+  .war .quote{
+    border-left:3px solid var(--gold-soft);
+    padding:4px 12px;margin:6px 0;
+    background:#faf6ea;color:#5a4e38;font-style:italic;font-size:14px;
+  }
+  .greek{color:var(--purple-soft);font-style:italic;font-size:13px;}
+
+  /* ---------- Table ---------- */
+  .tbl-wrap{overflow-x:auto;margin:18px 0;}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:620px;}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top;}
+  th{background:var(--purple);color:#f6f1e7;font-weight:600;letter-spacing:.03em;}
+  td .g{color:var(--crimson);font-weight:600;}
+  tbody tr:nth-child(even){background:#fbf7ec;}
+  td.hub{background:#fbf1d8;}
+
+  /* ---------- Reflection ---------- */
+  .reflect{display:grid;gap:14px;}
+  .reflect .item{
+    background:#fffdf7;border:1px solid var(--line);
+    border-radius:10px;padding:16px 18px;
+    box-shadow:0 2px 8px var(--shadow);
+  }
+  .reflect .item h4{margin:0 0 6px;color:var(--crimson);font-size:15px;}
+  .reflect .item .who{font-size:12px;color:var(--gold);letter-spacing:.1em;}
+
+  .theo{counter-reset:t;}
+  .theo .t{
+    position:relative;
+    background:#fffdf7;border:1px solid var(--line);
+    border-radius:10px;padding:16px 18px 16px 52px;margin:14px 0;
+    box-shadow:0 2px 8px var(--shadow);
+  }
+  .theo .t::before{
+    counter-increment:t;content:counter(t);
+    position:absolute;left:14px;top:16px;
+    width:26px;height:26px;border-radius:50%;
+    background:var(--purple);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;
+  }
+  .theo .t h4{margin:0 0 6px;color:var(--purple);font-size:15.5px;}
+
+  footer{
+    margin-top:60px;padding-top:24px;
+    border-top:1px solid var(--line);
+    text-align:center;color:#8a7d66;font-size:12.5px;
+  }
+  .ref-num{color:var(--gold);font-size:.75em;vertical-align:super;}
+
+  #top{
+    position:fixed;right:18px;bottom:22px;
+    width:44px;height:44px;border-radius:50%;
+    background:var(--purple);color:#f3ecd8;
+    display:none;align-items:center;justify-content:center;
+    text-decoration:none;font-size:18px;
+    box-shadow:0 4px 14px var(--shadow);z-index:60;
+  }
+  #top.show{display:flex;}
+
+  @media (max-width:640px){
+    .hero h1{font-size:22px;}
+    .helix{grid-template-columns:1fr;}
+    .helix .mid{flex-direction:row;padding:6px 0;}
+    .helix .stage-num{margin:0 4px;}
+    .helix .cell.hos-c{text-align:left;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">马 可 福 音 · 结 构 解 析</div>
+  <h1>第3章还没讲完，杀机已经出现</h1>
+  <div class="ref">马可福音 2:1 – 3:6</div>
+  <p class="hook">为什么犹太宗教权威仅凭前三章的内容，就要“除灭耶稣”？答案藏在一个埋藏了两千年的文学结构里——一条基督论启示线，与一条敌意杀机线，同步升起的“双螺旋”。</p>
+</header>
+
+<nav class="toc">
+  <ul>
+    <li><a href="#s1">一 · 核心悬念与结构</a></li>
+    <li><a href="#s2">二 · 五场战争拆解</a></li>
+    <li><a href="#s3">三 · 结构对照表</a></li>
+    <li><a href="#s4">四 · 现实反思</a></li>
+    <li><a href="#s5">五 · 五层神学意义</a></li>
+  </ul>
+</nav>
+
+<div class="wrap">
+
+  <!-- ============ 一 ============ -->
+  <section id="s1">
+    <h2 class="sec"><small>PART ONE</small>一、核心悬念与文学结构概览</h2>
+
+    <div class="card">
+      <p class="lead">在《马可福音》3:6，法利赛人就已经与西律党人商议要<strong>除灭耶稣</strong>。此时距彼得认信（第8章）、登山变像（第9章）、进耶路撒冷（第11章）都还很早。为什么仅凭前三章就痛下杀手？</p>
+      <p class="muted">乔安娜·杜威（Joanna Dewey）论证：2:1–3:6 并非五段零散冲突，而是<strong>五场精心排列的战争</strong>，采用古代便于口述记忆的对称 / 同心结构。</p>
+    </div>
+
+    <h3 class="sub">◆ ABCBA 同心结构（Chiastic Structure）</h3>
+    <div class="chiasm">
+      <div class="chi-row lvl-a">
+        <div class="chi-tag">A</div>
+        <div class="chi-txt"><strong>第1场 ↔ 第5场</strong><span>会堂 / 会堂边的家 · 由“又进了”作为文学括号</span></div>
+      </div>
+      <div class="chi-row lvl-b">
+        <div class="chi-tag">B</div>
+        <div class="chi-txt"><strong>第2场 ↔ 第4场</strong><span>围绕“吃”的争端 · 利未家宴席 vs 麦田掐麦穗</span></div>
+      </div>
+      <div class="chi-row lvl-c">
+        <div class="chi-tag">C</div>
+        <div class="chi-txt"><strong>第3场 · 神学枢纽</strong><span>宣告耶稣是“神圣新郎” · 首次给出明确的十字架暗示</span></div>
+      </div>
+      <div class="chi-center-note">▲ C 点为中心枢纽，A↔A′、B↔B′ 镜像呼应 ▲</div>
+    </div>
+
+    <h3 class="sub">◆ 双螺旋结构（Double Helix Structure）</h3>
+    <div class="card">
+      <p>耶稣的<strong style="color:var(--gold);">基督论启示线</strong>逐步升高，与反对者的<strong style="color:var(--crimson);">敌意杀机线</strong>逐步加深——两条线同步递进，交织成贯穿全段的“双螺旋”。</p>
+      <p class="muted">启示越清晰，敌意越深重。这正是后文整个受难叙事的缩影。</p>
+    </div>
+  </section>
+
+  <!-- ============ 二 ============ -->
+  <section id="s2">
+    <h2 class="sec"><small>PART TWO</small>二、五场“战争”逐场拆解与双螺旋递进</h2>
+    <p class="muted">点击每一场标题可展开 / 收起细节。左侧为耶稣的启示升级线，末端的红色标签标示反对者敌意级别。</p>
+
+    <!-- War 1 -->
+    <details class="war" open>
+      <summary><span class="no">1</span> 赦罪权柄 · 加百农拆屋顶瘫子 <span class="pos-tag">A · 心里议论</span></summary>
+      <div class="body">
+        <div class="row"><b>场景与细节：</b>四人拆开第一世纪由泥土、树枝与乾草压实的地屋顶（希腊文 <span class="greek">exoryxantes</span>，“挖出来”），将瘫子坠下。</div>
+        <div class="row hos"><b>耶稣的启示：</b>“神性被动”（Divine Passive，<span class="greek">aphientai</span>，“你的罪赦了”），施动者暗示为神。耶稣未直说自己神，却以<strong>神独有的赦罪权柄</strong>说话。</div>
+        <div class="quote">“你的罪赦了。”</div>
+        <div class="row"><b>敌对者反应：</b>心里议论，质疑其说僭妄的话。</div>
+      </div>
+    </details>
+
+    <!-- War 2 -->
+    <details class="war">
+      <summary><span class="no">2</span> 打破洁净系统 · 呼召税吏利未同席 <span class="pos-tag">B · 公开质问门徒</span></summary>
+      <div class="body">
+        <div class="row"><b>场景与细节：</b>第一世纪犹太餐桌具“蒙约性”；法利赛哈布林派（<span class="greek">Chaberim</span>）追求极致的餐桌纯洁。耶稣却呼召社会底层的税吏利未并与其同席。</div>
+        <div class="row hos"><b>耶稣的启示：</b>打破犹太洁净系统，接纳罪人。</div>
+        <div class="quote">“康健的人用不着医生……我来本不是召义人，乃是召罪人。”<br><span class="muted">（反讽自以为义的人，把自己排除在救恩之外）</span></div>
+        <div class="row"><b>敌对者反应：</b>公开质问门徒。</div>
+      </div>
+    </details>
+
+    <!-- War 3 (center) -->
+    <details class="war" open>
+      <summary><span class="no">3</span> 神圣新郎与十字架预表 · 论禁食 <span class="pos-tag c">C · 枢纽 · 当面质问耶稣</span></summary>
+      <div class="body">
+        <div class="row"><b>场景与细节：</b>众人质问耶稣门徒为何不禁食。</div>
+        <div class="row hos"><b>① 自比神圣新郎：</b>旧约（以西结书、何西阿书、以赛亚书）中，“新郎”是耶和华的独有称呼。耶稣在此埋下“早期高位基督论”，将自己置于耶和华的神学位置。</div>
+        <div class="row hos"><b>② 明确预表十字架：</b>宣告“新郎要从他们中间被夺去”（<span class="greek">aparthē</span>，“被强力带走”），是全书<strong>最早的明确十字架暗示</strong>。</div>
+        <div class="row hos"><b>③ 新旧比喻：</b>新布补旧衣、新酒装新皮袋（<span class="greek">neos</span> 时间上的新 / <span class="greek">kainos</span> 全新的品质）——旧体制装不下新时代。</div>
+        <div class="quote">“新郎和他们同在的时候，他们不能禁食……但日子将到，新郎要离开他们。”</div>
+        <div class="row"><b>敌对者反应：</b>公开质问耶稣本人。</div>
+      </div>
+    </details>
+
+    <!-- War 4 -->
+    <details class="war">
+      <summary><span class="no">4</span> 安息日的主 · 麦田掐麦穗 <span class="pos-tag">B′ · 指控违法</span></summary>
+      <div class="body">
+        <div class="row"><b>场景与细节：</b>门徒安息日掐麦穗符合《申命记》23:25，却触犯法利赛人口传律法中安息日 39 种禁止工作（掐=收割，搓=打场）的规条。</div>
+        <div class="row hos"><b>耶稣的启示：</b>引大卫吃陈设饼，宣告“安息日是为人设立的……人子也是安息日的主”，表明拥有与创造主同等的权柄。</div>
+        <div class="quote">“安息日是为人设立的，人不是为安息日设立的。”</div>
+        <div class="row"><b>历史悬案：</b>2:26“亚比亚他作大祭司”——最广接受的解法为“篇章标题说”（希腊介词结构指“在论到亚比亚他大祭司的那段经文中”），以著名人物作经文标签。</div>
+        <div class="row"><b>敌对者反应：</b>指控违法（指控升级）。</div>
+      </div>
+    </details>
+
+    <!-- War 5 -->
+    <details class="war" open>
+      <summary><span class="no">5</span> 挑战旧秩序 · 会堂医治枯手人 <span class="pos-tag">A′ · 宿敌合谋杀害</span></summary>
+      <div class="body">
+        <div class="row"><b>场景与细节：</b>场景回到会堂，法利赛人“窥探”（<span class="greek">paratēreō</span>，监视）耶稣。耶稣主动制造冲突，叫枯手人站到中间并公开反问。</div>
+        <div class="row hos"><b>耶稣的情绪：</b>“周围看”（<span class="greek">periblepsamenos</span>）并“深深忧愁”——罕用词，指混合着哀伤的愤怒，是造物主看着人心刚硬的哀伤。</div>
+        <div class="row"><b>敌对者反应：</b><strong style="color:var(--crimson);">合谋杀害。</strong>反罗马的法利赛人（宗教保守派）与亲罗马的西律党人（政治庸派）——神学、政治互为宿敌的两方，首次为除掉耶稣而联合。</div>
+        <div class="quote">他们就商议，怎样可以除灭耶稣。（可 3:6）</div>
+        <p class="muted">这一合谋预表受难叙事中彼拉多与希律、犹太公会与罗马士兵的终极联合。</p>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ 三 ============ -->
+  <section id="s3">
+    <h2 class="sec"><small>PART THREE</small>三、结构对照与双螺旋升路线</h2>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>场次</th><th>结构位</th><th>场景 / 争端</th><th>基督论启示（升）</th><th>敌意级别（升）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>第一场</td><td>A</td><td>加百农屋顶瘫子（赦罪）</td>
+            <td>展示神独有的赦罪权柄</td><td><span class="g">心里议论</span></td>
+          </tr>
+          <tr>
+            <td>第二场</td><td>B</td><td>利未家宴席（同席）</td>
+            <td>打破洁净系统，接纳罪人</td><td><span class="g">公开质问门徒</span></td>
+          </tr>
+          <tr>
+            <td>第三场</td><td class="hub">C 枢纽</td><td class="hub">论禁食（新郎 / 新酒）</td>
+            <td class="hub">自比神圣新郎，预表十字架</td><td class="hub"><span class="g">当面质问耶稣</span></td>
+          </tr>
+          <tr>
+            <td>第四场</td><td>B′</td><td>麦田掐麦穗（安息日）</td>
+            <td>宣告自己是安息日的主</td><td><span class="g">指控违法</span></td>
+          </tr>
+          <tr>
+            <td>第五场</td><td>A′</td><td>会堂医治枯手人</td>
+            <td>公开挑战旧秩序，行使主权</td><td><span class="g">宿敌合谋杀害</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="arrow-up">▲ 启示线 · 逐级升高 &nbsp;|&nbsp; 敌意线 · 同步加深 ▲</div>
+    </div>
+  </section>
+
+  <!-- ============ 四 ============ -->
+  <section id="s4">
+    <h2 class="sec"><small>PART FOUR</small>四、现实应用与神学反思</h2>
+    <div class="reflect">
+      <div class="item">
+        <span class="who">给以为基督教应该受欢迎的信徒</span>
+        <h4>真理的清晰启示，与世界的敌意成正比</h4>
+        <p>遭遇排挤或抵制，并非因为你做错了什么——耶稣在地上的事工，从一开始就是在激烈冲突中展开的。跟随基督绝非一路鲜花，而是必然伴随属灵的冲突与代价。</p>
+      </div>
+      <div class="item">
+        <span class="who">给被“和气文化”驯化的教会</span>
+        <h4>爱，不等于回避冲突</h4>
+        <p>耶稣并非永远温和微笑、回避冲突的形象。祂会主动制造无法回避的选择时刻，挑战社会与传统秩序。爱人与传讲真理，不可与“迎合所有人”混为一谈。</p>
+      </div>
+      <div class="item">
+        <span class="who">给“法官式”的门徒</span>
+        <h4>警惕把个人标准当成神旨意去审判他人</h4>
+        <p>法利赛人的悲剧，在于将律法细节与个人标准误当作神的旨意，甚至以此审判神自己。切勿凭偏见扮演法官、轻率贴标签，而错失神的真理与恩典。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 五 ============ -->
+  <section id="s5">
+    <h2 class="sec"><small>PART FIVE</small>五、双螺旋结构的五层神学意义</h2>
+    <div class="theo">
+      <div class="t">
+        <h4>真理启示与世俗抵制成正比</h4>
+        <p>启示线从赦罪权柄→打破洁净→神圣新郎→安息日之主→公开挑战旧秩序；敌意线从心里议论→质问门徒→当面质问→指控违法→合谋杀害。二者同步升级，揭示属灵战场的必然张力：<strong>真理越清晰彰显，旧体制的抵抗就越激烈</strong>。</p>
+      </div>
+      <div class="t">
+        <h4>早期高位基督论与十字架阴影的提前贯穿</h4>
+        <p>C 点“新郎”是耶和华立约关系的专有称呼，耶稣自比新郎即在未明言“我是神”前，已占有耶和华的神学位置；“新郎被夺去”（<span class="greek">aparthē</span>）表明<strong>十字架并非事态失控的悲剧，而是事工伊始即注定的救恩路径</strong>。</p>
+      </div>
+      <div class="t">
+        <h4>救恩新纪元与旧宗教体制的彻底断裂</h4>
+        <p>“新布补旧衣、新酒装新皮袋”显明新旧不可调和；耶稣以“安息日的主”身份重新定义安息日“为人设立”的本意，恢复造物主对律法的绝对解释权，打破凌驾于神旨意之上的教条主义。</p>
+      </div>
+      <div class="t">
+        <h4>世俗与宗教势力的联合抵抗（预表终极受难）</h4>
+        <p>反罗马的法利赛人与亲罗马的西律党人，本为宿敌，却为“除灭耶稣”首次联合。这揭示：当面对神圣主权的挑战时，<strong>世俗政治与宗教旧体系会放弃分歧，联合对抗上帝的国度</strong>——直接预表彼拉多与希律、公会与罗马兵丁的终极合谋。</p>
+      </div>
+      <div class="t">
+        <h4>对现实信仰与门徒职分的警示</h4>
+        <p>纠正“和气文化”的驯化——爱不等于回避冲突；警惕“法官式”律法主义——不以个人偏见贴标签。门徒当在真理与恩典之间，忠心站立。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>《马可福音》2:1–3:6 · ABCBA 同心结构与双螺旋递进解析</p>
+    <p class="muted">本文为经文文学结构与神学主题的整理，供研读与反思之用。</p>
+  </footer>
+
+</div>
+
+<a id="top" href="#" title="回到顶部">↑</a>
+
+<script>
+  // 回到顶部
+  var topBtn=document.getElementById('top');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>400)topBtn.classList.add('show');else topBtn.classList.remove('show');
+  });
+  topBtn.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});
+
+  // 导航点击平滑（fallback，浏览器已支持 scroll-behavior）
+  document.querySelectorAll('nav.toc a').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id=this.getAttribute('href');
+      var el=document.querySelector(id);
+      if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}
+    });
+  });
+</script>
+</body>
+</html>

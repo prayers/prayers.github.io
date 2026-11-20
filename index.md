@@ -22,5 +22,9 @@
 
 # [网络神学院信息](./onlineseminary/readme.md)
 
+
+# 神学文章
+## [马可福音结构分析](./神学文章/马可福音结构分析.html)
+
 <div id="dailyVersesWrapper"></div>
 <script async defer src="https://dailyverses.net/get/verse.js?language=cuv"></script>
